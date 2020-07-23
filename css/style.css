@@ -1,0 +1,13 @@
+@font-face {
+  font-family: KhmerOSwatphnom;
+  src: url(../fonts/KhmerOSwatphnom_0.ttf);
+}
+body{
+	font-family: KhmerOSwatphnom, -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.btn-dd{
+	    color: #fff;
+    background-color: #8B008B;
+    border-color: #8B008B;
+}
