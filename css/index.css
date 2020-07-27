@@ -1,0 +1,56 @@
+body, *{
+	margin: 0px;
+	padding: 0px;
+}
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+.slide{
+	margin-bottom: 10px;
+}
+.frm .btn-search{
+	border-radius: 15px 15px;
+}
+.apple{
+	height: 50px;
+	/*background: gray;*/
+	background: linear-gradient(#ee9ca7, #ffdde1);
+}
+.apple h3{
+	color: white;
+}
+.con-row{
+	border: 1px solid black;
+	margin-bottom: 5px;
+	}
+
+
+/*pagination*/
+.con{
+	position: relative;
+	top: 10%;
+	left: 50%;
+	transform: translate(-25%, -0%);
+	}
+/*.pagination {
+	text-align: center;
+    display: inline-block;
+}*/
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+}
+.pagination a:hover{
+	background: gray;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
